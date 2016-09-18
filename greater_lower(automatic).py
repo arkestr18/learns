@@ -1,11 +1,11 @@
 # больше меньше автоматически
-import random
+from random import *
 
-r = random.randint(0, 100)
+r = randint(0, 100)
 a=0
 b=100
 while True:
-    k = random.randint(a, b)
+    k = randint(a, b)
     if k>r:
         print(str(k) + ' большое число')
         b=k
