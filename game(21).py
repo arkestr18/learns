@@ -1,4 +1,4 @@
-import random
+from random import *
 def printCardName(numCard):
     if numCard==2:
         print('вам выпал валет')
@@ -23,7 +23,7 @@ k = 0
 z = 0
 while True:
     z +=1
-    i=random.randint(2, 11)
+    i=randint(2, 11)
     if i==5:
       continue
     printCardName(i)
